@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import 'remixicon/fonts/remixicon.css';
 import Footer from "@/components/Footer";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
