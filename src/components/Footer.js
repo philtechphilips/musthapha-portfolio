@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="w-full md:px-36 px-5 flex md:flex-row items-center justify-between bg-[#0c0c0c] pb-2">
-                <h1 className="md:text-[140px] text-[52px] text-center text-white font-[Sahonme-Extrafelt] uppercase">MUSTHAPHA</h1>
+                <h1 className="md:text-[140px] text-[52px] text-center text-white font-[Sahonme-Extrafelt] uppercase">MUSTAPHA</h1>
             </div>
             <div className="w-full md:px-36 px-5 pt-5 flex items-center justify-between bg-[#0c0c0c] pb-2">
                 <div>
@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <Link href="/" className="flex gap-8 text-white md:text-xl font-[Sahonme-Buch] tracking-widest">MUSTHAPHA</Link>
+                    <Link href="/" className="flex gap-8 text-white md:text-xl font-[Sahonme-Buch] tracking-widest">MUSTAPHA</Link>
                 </div>
             </div>
         </>
