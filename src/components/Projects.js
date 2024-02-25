@@ -5,20 +5,20 @@ import Marquee from 'react-fast-marquee'
 
 const Projects = () => {
     return (
-        <div className='w-full bg-[#0c0c0c] md:px-24 px-5'>
+        <div className='w-full bg-[#0c0c0c] md:px-24 px-5 -mt-3'>
             <Marquee className='flex py-20 overflow-y-hidden items-center' gradient="true" gradientColor="#0c0c0c" >
                 <h1 className='text-white text-4xl mx-4  mt-2 font-[Sahonme-Leicht] md:text-[70px] text-[48px]'>Recent Projects</h1>
-                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick'></Image>
+                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick' className='w-10 md:w-20'></Image>
                 <h1 className='text-gray-600 text-4xl mx-4 mt-2  font-[Sahonme-Leicht] md:text-[70px] text-[48px]'>Recent Projects</h1>
-                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick'></Image>
+                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick' className='w-10 md:w-20'></Image>
                 <h1 className='text-white text-4xl mx-4 mt-2  font-[Sahonme-Leicht] md:text-[70px] text-[48px]'>Recent Projects</h1>
-                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick'></Image>
+                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick' className='w-10 md:w-20'></Image>
                 <h1 className='text-gray-600 text-4xl mx-4 mt-2  font-[Sahonme-Leicht] md:text-[70px] text-[48px]'>Recent Projects</h1>
-                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick'></Image>
+                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick' className='w-10 md:w-20'></Image>
                 <h1 className='text-white text-4xl mx-4 mt-2  font-[Sahonme-Leicht] md:text-[70px] text-[48px]'>Recent Projects</h1>
-                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick'></Image>
+                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick' className='w-10 md:w-20'></Image>
                 <h1 className='text-gray-600 text-4xl mx-4 mt-2  font-[Sahonme-Leicht] md:text-[70px] text-[48px]'>Recent Projects</h1>
-                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick'></Image>
+                <Image src="/icons8-asterisk-96.png" width={80} height={80} alt='asterick' className='w-10 md:w-20'></Image>
             </Marquee>
 
             <div className='w-full flex items-center justify-center md:px-36 px-5'>
@@ -43,7 +43,7 @@ const Projects = () => {
                         <Image src="/uav.png" width={300} height={600} alt='uav'></Image>
                     </div>
                 </div>
-                <div className='w-full h-[0.1px] bg-white'></div>
+                <div className='w-full h-[0.1px] bg-white opacity-60'></div>
                 <div>
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>
@@ -59,7 +59,7 @@ const Projects = () => {
                         <Image src="/vt.jpg" className='w-full md:w-[400px]' width={400} height={600} alt='uav'></Image>
                     </div>
                 </div>
-                <div className='w-full h-[0.1px] bg-white'></div>
+                <div className='w-full h-[0.1px] bg-white opacity-60'></div>
                 <div>
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>

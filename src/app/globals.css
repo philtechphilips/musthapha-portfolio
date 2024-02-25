@@ -26,3 +26,11 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Sahonme-d';
+  src: local('Sahonme leicht'), local('Sahonme-leicht'),
+      url('/fonts/test-soehne-dreiviertelfett.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
