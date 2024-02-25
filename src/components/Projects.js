@@ -33,13 +33,9 @@ const Projects = () => {
                             <Link href="/swarm-system" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>UAV Swarm System</Link>
                         </div>
                         <Link href="/swarm-system" className='font-[Sahonme-Buch] text-md text-[#e1f03b] uppercase hidden md:flex hover:tracking-wide transition-[3s]'>View Project <i className="ri-arrow-right-s-line"></i></Link>
-
-
                     </div>
-                    <div className='flex md:flex-row flex-col mt-5 gap-4'>
-                        <Image src="/uav.jpg" className='w-full md:w-[200px]' width={200} height={600} alt='uav'></Image>
-                        <Image src="/uavs.jpg" width={300} height={600} alt='uav'></Image>
-                        <Image src="/uav.png" width={300} height={600} alt='uav'></Image>
+                    <div className='flex md:flex-row flex-col md:ml-5 gap-4'>
+                        <Image src="/uav.jpg" className='w-full md:w-[300px] rotate-90 pl-10' width={200} height={600} alt='uav'></Image>
                     </div>
                 </div>
                 <div className='w-full h-[0.1px] bg-white opacity-60'></div>
@@ -64,13 +60,9 @@ const Projects = () => {
                             <Link href="/ground-project" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white capitalize'>Unmanned Ground Vehicle</Link>
                         </div>
                         <Link href="/ground-project" className='font-[Sahonme-Buch] text-md text-[#e1f03b] uppercase hidden md:flex hover:tracking-wide transition-[3s]'>View Project <i className="ri-arrow-right-s-line"></i></Link>
-
-
                     </div>
                     <div className='flex md:flex-row flex-col mt-5 gap-4'>
                         <Image src="/ulv.jpg" className='w-full md:w-[300px]' width={200} height={400} alt='uav'></Image>
-                        <Image src="/ulvs.jpg" width={300} height={400} alt='uav'></Image>
-                        {/* <Image src="/uav.png" width={300} height={600} alt='uav'></Image> */}
                     </div>
                 </div>
             </div>
