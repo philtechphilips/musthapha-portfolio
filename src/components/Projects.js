@@ -30,7 +30,7 @@ const Projects = () => {
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>
                             <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>01</h1>
-                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>UAV Swarm System</h1>
+                            <Link href="/swarm-system" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>UAV Swarm System</Link>
                         </div>
                         <Link href="/swarm-system" className='font-[Sahonme-Buch] text-md text-[#e1f03b] uppercase hidden md:flex hover:tracking-wide transition-[3s]'>View Project <i className="ri-arrow-right-s-line"></i></Link>
 
@@ -47,7 +47,7 @@ const Projects = () => {
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>
                             <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>02</h1>
-                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>Cellular Vehicle Tracker</h1>
+                            <Link href="/vehicle-tracker" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>Cellular Vehicle Tracker</Link>
                         </div>
 
                         <Link href="/vehicle-tracker" className='font-[Sahonme-Buch] text-md text-[#e1f03b] uppercase hidden md:flex hover:tracking-wide transition-[3s]'>View Project <i className="ri-arrow-right-s-line"></i></Link>
@@ -61,7 +61,7 @@ const Projects = () => {
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center gap-4'>
                             <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white'>03</h1>
-                            <h1 className='font-[Sahonme-Buch] md:text-3xl text-xl text-white capitalize'>Unmanned Ground Vehicle</h1>
+                            <Link href="/ground-project" className='font-[Sahonme-Buch] md:text-3xl text-xl text-white capitalize'>Unmanned Ground Vehicle</Link>
                         </div>
                         <Link href="/ground-project" className='font-[Sahonme-Buch] text-md text-[#e1f03b] uppercase hidden md:flex hover:tracking-wide transition-[3s]'>View Project <i className="ri-arrow-right-s-line"></i></Link>
 
