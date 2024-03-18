@@ -19,7 +19,7 @@ const Navbar = () => {
     </div>
 
     <div className={`w-full bg-[#0c0c0c] py-8 px-5 md:px-24 flex flex-col gap-16 fixed top-20 items-center justify-between transition-transform z-[1000] ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full transition-transform'}`}>
-      <Link href="/about" className='text-white font-[Sahonme-Buch] text-lg'>About Me</Link>
+      <Link href="/about" onClick={toggleNavBar} className='text-white font-[Sahonme-Buch] text-lg'>About Me</Link>
       <Link href="mailto:omusatafer4@gmail.co" className='text-white font-[Sahonme-Buch] border border-white rounded-full px-10 py-4'>Let's Work Together</Link>
     </div>
     </>
