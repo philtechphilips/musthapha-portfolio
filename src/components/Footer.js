@@ -8,19 +8,16 @@ const Footer = () => {
                 <div>
                     <h1 className="flex gap-8 text-white text-xl font-[Sahonme-Buch] opacity-25">Contact me for work</h1>
                     <div className="flex gap-8">
-                        <Link href="linkedin.com/in/muochi9" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">Book a Call</Link>
+                        <Link href="linkedin.com/in/muochi9" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">LinkedIn</Link>
                         <Link href="mailto:omusatafer4@gmail.co" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">Email</Link>
-                        <Link href="/" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">Whatsapp</Link>
+                        <Link href="https://drive.google.com/file/d/1lqa1XEcCVq2VDIfZV6Gk3cssQyYiWb3g/view" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">Resume</Link>
                     </div>
                 </div>
 
                 <div>
                     <h1 className="flex gap-8 text-white text-xl font-[Sahonme-Buch] opacity-25">Social</h1>
                     <div className="flex gap-8">
-                        <Link href="/" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">LN</Link>
-                        <Link href="/" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">IG</Link>
-                        <Link href="/" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">X</Link>
-                        <Link href="/" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">GH</Link>
+                        <Link href="linkedin.com/in/muochi9" className="flex gap-8 text-white text-xl font-[Sahonme-Buch]">LINKEDIN</Link>
                     </div>
                 </div>
             </div>
