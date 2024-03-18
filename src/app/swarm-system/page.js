@@ -95,7 +95,6 @@ const page = () => {
                     <Image src="/uavs.jpg" width={500} height={400}></Image>
                     <Image src="/uav.png" width={400} height={400}></Image>
                     <Image src="/uaav.jpg" width={500} height={400}></Image>
-                    <Image src="/uaaaav.jpeg" width={500} height={400}></Image>
                 </div>
             </div>
         </>

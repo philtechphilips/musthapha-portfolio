@@ -19,7 +19,7 @@ export default function Home() {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out">AI Engineer </h1>
-        <h1 className="md:text-[100px] text-[56px] text-white font-[Sahonme-Extrafelt] uppercase text-center" data-aos="fade-up"
+        <h1 className="md:text-[80px] text-[56px] text-white font-[Sahonme-Extrafelt] uppercase text-center" data-aos="fade-up"
           data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="1250"
@@ -28,7 +28,7 @@ export default function Home() {
           data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="1500"
-          data-aos-easing="ease-in-out">Architect of the future, one algorithm at a time. 🤖 #AIEngineer</p>
+          data-aos-easing="ease-in-out">One algorithm at a time. 🤖 #AIEngineer</p>
         <Image data-aos="fade-up"
           data-aos-offset="200"
           data-aos-delay="50"

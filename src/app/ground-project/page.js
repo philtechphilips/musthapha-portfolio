@@ -90,6 +90,10 @@ const page = () => {
                     </li>
 
                     <li className="font-[Sahonme-Leicht] text-lg text-white">
+                        Integrated object identification algorithm
+                    </li>
+
+                    <li className="font-[Sahonme-Leicht] text-lg text-white">
                         Writing code for the payload subsystem unit in C++
                     </li>
 
@@ -114,6 +118,7 @@ const page = () => {
                     <Image src="/two.jpg" width={500} height={400}></Image>
                     <Image src="/three.png" width={400} height={400}></Image>
                     <Image src="/four.jpg" width={500} height={400}></Image>
+                    <Image src="/uaaaav.jpeg" width={500} height={400}></Image>
                 </div>
             </div>
         </>
