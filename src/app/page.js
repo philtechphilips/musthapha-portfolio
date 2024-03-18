@@ -19,7 +19,7 @@ export default function Home() {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out">AI Engineer </h1>
-        <h1 className="md:text-[80px] text-[56px] text-white font-[Sahonme-Extrafelt] uppercase text-center" data-aos="fade-up"
+        <h1 className="md:text-[80px] text-[36px] text-white font-[Sahonme-Extrafelt] uppercase text-center" data-aos="fade-up"
           data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="1250"
