@@ -1,5 +1,12 @@
-import Image from 'next/image'
-import React from 'react'
+"use client"
+import Image from 'next/image';
+import React from 'react';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+// Default theme
+import '@splidejs/react-splide/css';
+// import '@splidejs/react-splide/css/skyblue';
+// import '@splidejs/react-splide/css/sea-green';
+// import '@splidejs/react-splide/css/core';
 
 const page = () => {
   return (
@@ -21,15 +28,20 @@ const page = () => {
           As a personal responsibility to the next generation, I coach kids on how to use program drones - small UAVs and UGVs - using Scratch during the weekends. You might also find me engaging in a game of FIFA or cheering my favorite football club, Chelsea, during the weekend.
         </p>
 
-        <div className='flex flex-col md:flex-row gap-10 mt-10'>
-        <Image src="/pic3.jpg" alt="pic1" width={500} height={700}></Image>
-          <Image src="/pic4.jpg" alt="pic1" width={500} height={700} className=' rotate-90'></Image>
-        </div>
-
-        <div className='flex flex-col md:flex-row gap-10 mt-20'>
-          <Image src="/pic5.jpg" alt="pic2" width={500} height={500} className='rotate-180'></Image>
-          <Image src="/pic6.jpg" alt="pic2" width={500} height={700}></Image>
-        </div>
+        <Splide className='mt-20'>
+          <SplideSlide>
+            <Image src="/pic3.jpg" alt="pic1" width={1000} height={700}></Image>
+          </SplideSlide>
+          <SplideSlide>
+            <Image src="/pic4.jpg" alt="pic1" width={1000} height={700} className=' rotate-90'></Image>
+          </SplideSlide>
+          <SplideSlide>
+            <Image src="/pic5.jpg" alt="pic2" width={1000} height={700} className='rotate-180'></Image>
+          </SplideSlide>
+          <SplideSlide>
+            <Image src="/pic6.jpg" alt="pic2" width={1000} height={700}></Image>
+          </SplideSlide>
+        </Splide>
       </div>
     </div>
   )
